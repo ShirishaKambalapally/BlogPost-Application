@@ -1,0 +1,21 @@
+
+  .dash{
+    
+    color: #040601;            /* Text color */
+    align-items: center;    /* Center items vertically */
+    flex-direction: column-reverse;
+    height: 100%; /* Ensures full viewport height */
+    padding: 20px;
+    margin-top:  585px ;
+
+  }
+  
+    
+
+.dash p {
+  font-size: 20px;
+  color: #0c0101b3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0px; /* Removes any default margin */
+}

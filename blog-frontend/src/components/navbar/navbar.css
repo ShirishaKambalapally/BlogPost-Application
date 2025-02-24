@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.bar {
+  height: 100%;
+  width:  100%;
+  background-color: hwb(60 98% 1%); 
+  color: #040601;            /* Text color */
+  display: flex;          /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center;    /* Center items vertically */
+  border-bottom: 2px solid #180212;
+  padding-left: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+
+
+}
+.nav-links {
+  display: flex;             /* Arrange links in a row */
+  gap: 20px;                /* Space between links */
+  justify-content: space-around; /* Space between items */
+  padding-right: 30px;
+
+}
+.nav-links a {
+  color: rgb(39, 39, 225);                 /* Link color */
+  text-decoration: none;        /* No underline on links */
+  font-weight: 550;
+}
+h2{
+  text-align: center;
+}
+
+
+
+
+

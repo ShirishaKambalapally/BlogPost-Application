@@ -1,0 +1,88 @@
+/* mainbody.css */
+.mainbody-container {
+    
+    max-width: 800px;
+    text-align: center;
+}
+
+.mainbody-container h1 {
+    font-size: 30px;
+    padding-left: 60%;
+    color: #131010de;
+    font-family: cursive;
+    text-align: center;
+}
+/* Individual post container */
+.post {
+    background-color: #ffffff;
+    padding-left: 60%;
+
+    padding: 20px;
+    margin: 15px auto; /* Centers the posts */
+    border-radius: 10px;
+    border: 2px solid #343a40; /* Add border */
+    max-width: 600px; /* Restricts post width */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+/* Hover effect for posts */
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Post title styling */
+.post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+/* Post description styling */
+.post-description {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Post metadata styling */
+.post-meta {
+    font-size: 0.9rem;
+    color: #adb5bd;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Metadata items */
+.meta-item {
+    margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .mainbody-container {
+        padding: 15px;
+    }
+
+    .post {
+        padding: 15px;
+        max-width: 100%; /* Allow full width on smaller screens */
+    }
+
+    .post-title {
+        font-size: 1.3rem;
+    }
+
+    .post-description {
+        font-size: 0.9rem;
+    }
+
+    .post-meta {
+        font-size: 0.8rem;
+    }
+}
